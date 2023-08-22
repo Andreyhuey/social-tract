@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className="fixed left-0 top-0 z-30 w-full h-auto bg-white">
-      <div className="px-4 md:px-8 lg:px-40 text-black">
+      <div className="container text-black">
         {/* for tabs and pcs */}
         <div className="hidden md:flex justify-between items-center py-4 relative">
           <div>
@@ -28,7 +28,12 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="flex items-center justify-center gap-2 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          <div
+            className="flex items-center justify-center gap-2 
+          absolute top-1/2 left-1/2 
+          transform -translate-x-1/2 -translate-y-1/2
+          "
+          >
             <Image src={logo} alt="site logo" />
             <p className="text-[18px] font-semibold">slack</p>
           </div>
