@@ -15,21 +15,20 @@ const Navbar = () => {
       <div className="container text-black">
         {/* for tabs and pcs */}
         <div className="hidden md:flex md:justify-between md:items-center py-4 relative">
-          <div>
-            <ul className="flex items-center justify-center gap-7">
-              <li className="cursor-pointer">
-                <Link href="why-slack">Why Slack?</Link>
-              </li>
-              <li className="cursor-pointer">
-                <Link href="why-slack">Pricing</Link>
-              </li>
-              <li className="cursor-pointer">
-                <Link href="why-slack">About</Link>
-              </li>
-            </ul>
-          </div>
+          <ul className="flex flex-1 items-center justify-start gap-7">
+            <li className="cursor-pointer">
+              <Link href="why-slack">Why Slack?</Link>
+            </li>
+            <li className="cursor-pointer">
+              <Link href="why-slack">Pricing</Link>
+            </li>
+            <li className="cursor-pointer">
+              <Link href="why-slack">About</Link>
+            </li>
+          </ul>
+
           <div
-            className="flex items-center justify-center gap-2 
+            className="flex flex-1 items-center justify-center gap-2 
           absolute top-1/2 left-1/2 
           transform -translate-x-1/2 -translate-y-1/2
           "
@@ -37,7 +36,7 @@ const Navbar = () => {
             <Image src={logo} alt="site logo" />
             <p className="text-[18px] font-semibold">slack</p>
           </div>
-          <div className="flex items-center justify-between gap-5">
+          <div className="flex flex-1 items-center justify-end gap-5">
             <button>Sign in</button>
             <button className="border border-[#99999E] p-3">Sign up</button>
           </div>
