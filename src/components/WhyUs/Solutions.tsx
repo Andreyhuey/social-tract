@@ -12,8 +12,8 @@ import { BsArrowRight } from "react-icons/bs";
 
 const Solutions = () => {
   return (
-    <div className="text-[#272D40]">
-      <div className="bg-[#F5F4F5] min-h-screen md:py-16 py-8">
+    <div className="text-[#272D40] ">
+      <div className="bg-[#F5F4F5] md:py-16 py-8">
         <div className="container text-[#272D40]">
           <div className="text-center pt-16">
             <p className=" md:text-[40px] text-[30px] font-bold">
@@ -97,8 +97,8 @@ const Solutions = () => {
         </div>
       </div>
       {/*  */}
-      <div className="container py-20">
-        <div className="flex items-center justify-between flex-col md:flex-row gap-5">
+      <div className="container pb-20 pt-28">
+        <div className="flex items-start justify-between flex-col md:flex-row gap-5">
           <Image src={image9} alt="image of m" className="order-2 md:order-1" />
           <div className="flex flex-col items-start justify-center gap-4 order-1 md:order-2 md:max-w-[450px]">
             <p className="font-bold text-[30px]">

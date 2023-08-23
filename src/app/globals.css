@@ -30,4 +30,11 @@ body {
   .container {
     @apply px-4 md:px-8 lg:px-20;
   }
+
+  .h2 {
+    @apply font-bold text-[30px] md:text-[36px];
+  }
+  .h3 {
+    @apply font-bold md:text-[32px];
+  }
 }
