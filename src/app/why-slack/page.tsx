@@ -6,7 +6,7 @@ const page = () => {
   return (
     <main className="bg-white w-full">
       <Navbar />
-      <div className="md:pt-16 pt-10 "></div>
+      <div className="md:pt-16 pt-10"></div>
       <HeaderTwo />
       <Solutions />
       <FAQ />
