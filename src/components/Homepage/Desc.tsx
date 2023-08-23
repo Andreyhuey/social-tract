@@ -10,6 +10,7 @@ import Image from "next/image";
 const Desc = () => {
   return (
     <div>
+      {/* */}
       <div className="bg-[#F9F9F9] min-h-screen py-8">
         <div className="container py-12">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-5">
