@@ -1,7 +1,17 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
 import logo from "../assets/slack-1-logo.svg";
 import { BiLogoFacebook, BiLogoTwitter, BiLogoYoutube } from "react-icons/bi";
+import { AiOutlineDown } from "react-icons/ai";
+import {
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
+} from "react-accessible-accordion";
 import Link from "next/link";
 
 const Footer = () => {
@@ -75,7 +85,98 @@ const Footer = () => {
       </div>
       {/* for mobile devices */}
       <div className="md:hidden container">
-        <div className=""></div>
+        <div className="w-full text-[#272D40] pb-10">
+          <Accordion allowZeroExpanded={true} className="flex flex-col gap-2">
+            <AccordionItem className="border-b-[1px] border-[#99999E]">
+              <AccordionItemHeading>
+                <AccordionItemButton className="flex items-center justify-between gap-1 w-full bg-[#fff] py-4 px-2 font-bold">
+                  Company
+                  <AiOutlineDown />
+                </AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel className="p-2">
+                <p>Company</p>
+                <p>About Us</p>
+                <p>Blog</p>
+                <p>Press Info</p>
+              </AccordionItemPanel>
+            </AccordionItem>
+            {/*  */}
+            <AccordionItem className="border-b-[1px] border-[#99999E]">
+              <AccordionItemHeading>
+                <AccordionItemButton className="flex items-center justify-between gap-1 w-full bg-[#fff] py-4 px-2 font-bold">
+                  Slack
+                  <AiOutlineDown />
+                </AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel className="p-2">
+                <p>Why Slack</p>
+                <p>Enterprise</p>
+                <p>Customer Stories</p>
+                <p>Pricing</p>
+                <p>Security</p>
+                <p>FAQ</p>
+              </AccordionItemPanel>
+            </AccordionItem>
+            {/*  */}
+            <AccordionItem className="border-b-[1px] border-[#99999E]">
+              <AccordionItemHeading>
+                <AccordionItemButton className="flex items-center justify-between gap-1 w-full bg-[#fff] py-4 px-2 font-bold">
+                  Resources
+                  <AiOutlineDown />
+                </AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel className="p-2">
+                <p>Download</p>
+                <p>Help Center</p>
+                <p>Guides</p>
+                <p>Events</p>
+                <p>Developers</p>
+                <p>App Directory</p>
+                <p>Partners</p>
+              </AccordionItemPanel>
+            </AccordionItem>
+            {/*  */}
+            <AccordionItem className="border-b-[1px] border-[#99999E]">
+              <AccordionItemHeading>
+                <AccordionItemButton className="flex items-center justify-between gap-1 w-full bg-[#fff] py-4 px-2 font-bold">
+                  Extras
+                  <AiOutlineDown />
+                </AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel className="p-2">
+                <p>Podcast</p>
+                <p>Slack Shop</p>
+                <p>Slack at Work</p>
+                <p>Slack Fund</p>
+              </AccordionItemPanel>
+            </AccordionItem>
+            {/*  */}
+            <AccordionItem className="border-b-[1px] border-[#99999E]">
+              <AccordionItemHeading>
+                <AccordionItemButton className="flex items-center justify-between gap-1 w-full bg-[#fff] py-4 px-2 font-bold">
+                  Status
+                  <AiOutlineDown />
+                </AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel className="p-2">
+                Lorem ipsum
+              </AccordionItemPanel>
+            </AccordionItem>
+            {/*  */}
+            <AccordionItem className="border-b-[1px] border-[#99999E]">
+              <AccordionItemHeading>
+                <AccordionItemButton className="flex items-center justify-between gap-1 w-full bg-[#fff] py-4 px-2 font-bold">
+                  Privacy & Terms
+                  <AiOutlineDown />
+                </AccordionItemButton>
+              </AccordionItemHeading>
+              <AccordionItemPanel className="p-2">
+                Lorem ipsum
+              </AccordionItemPanel>
+            </AccordionItem>
+          </Accordion>
+        </div>
         <div className="flex items-center justify-between">
           <Link href="/" className="cursor-pointer">
             <Image src={logo} alt="site logo" />

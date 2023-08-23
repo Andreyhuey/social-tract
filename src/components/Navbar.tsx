@@ -27,15 +27,16 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <div
+          <Link
+            href={"/"}
             className="flex flex-1 items-center justify-center gap-2 
           absolute top-1/2 left-1/2 
-          transform -translate-x-1/2 -translate-y-1/2
+          transform -translate-x-1/2 -translate-y-1/2 cursor-pointer
           "
           >
             <Image src={logo} alt="site logo" />
             <p className="text-[18px] font-semibold">slack</p>
-          </div>
+          </Link>
           <div className="flex flex-1 items-center justify-end gap-5">
             <button>Sign in</button>
             <button className="border border-[#99999E] p-3">Sign up</button>
