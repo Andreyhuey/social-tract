@@ -4,7 +4,7 @@ import clifford from "../../assets/clifford.svg";
 import nick from "../../assets/nick.svg";
 import image3 from "../../assets/Image3.svg";
 import image4 from "../../assets/Image4.svg";
-import image5 from "../../assets/Image5.svg";
+import image5 from "../../assets/image5.svg";
 import Image from "next/image";
 
 const Desc = () => {
