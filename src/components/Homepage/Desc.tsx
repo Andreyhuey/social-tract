@@ -12,7 +12,7 @@ const Desc = () => {
     <div>
       <div className="bg-[#F9F9F9] min-h-screen py-8">
         <div className="container py-12">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-5">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-5">
             <div className="text-[#272D40]">
               <div>
                 <p className="">A communication platform for teams</p>
@@ -53,7 +53,7 @@ const Desc = () => {
       {/*  */}
       <div className="min-h-screen py-8">
         <div className="container py-12">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-5">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-5">
             <Image src={image4} alt="image 4" className="md:order-1 order-2" />
             <div className="text-[#272D40] md:order-2 order-1">
               <div>
@@ -95,7 +95,7 @@ const Desc = () => {
       {/*  */}
       <div className="min-h-screen py-8">
         <div className="container py-12">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-5">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-5">
             <div className="text-[#272D40]">
               <div>
                 <p className="">The hub all work</p>

@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className="fixed left-0 top-0 z-30 w-full h-auto bg-white">
       <div className="container text-black">
         {/* for tabs and pcs */}
-        <div className="hidden md:flex justify-between items-center py-4 relative">
+        <div className="hidden md:flex md:justify-between md:items-center py-4 relative">
           <div>
             <ul className="flex items-center justify-center gap-7">
               <li className="cursor-pointer">
@@ -44,7 +44,7 @@ const Navbar = () => {
         </div>
 
         {/* for mobile devices */}
-        <div className="flex items-center justify-between lg:hidden py-4">
+        <div className="flex items-center justify-between md:hidden py-4">
           <Link href="\" className="cursor-pointer">
             <Image src={logo} alt="site logo" />
           </Link>
