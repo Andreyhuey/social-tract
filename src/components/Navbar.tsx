@@ -40,7 +40,9 @@ const Navbar = () => {
           </Link>
           <div className="flex flex-1 items-center justify-end gap-5">
             <button>Sign in</button>
-            <button className="border border-[#99999E] p-3">Sign up</button>
+            <button className="border border-[#99999E] py-2 px-3 hover:text-white hover:bg-[#1F2492] rounded ">
+              Sign up
+            </button>
           </div>
         </div>
 
@@ -78,7 +80,7 @@ const Navbar = () => {
                   <button>Sign in</button>
                 </li>
                 <li className="cursor-pointer">
-                  <button className="border border-[#99999E] p-3">
+                  <button className="border border-[#99999E] py-2 px-3 hover:text-white hover:bg-[#1F2492] rounded">
                     Sign up
                   </button>
                 </li>
