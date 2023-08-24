@@ -17,7 +17,7 @@ import FAQ from "./WhyUs/FAQ";
 // About
 import HeaderThree from "./About/HeaderThree";
 import Info from "./About/Info";
-import CountUp from "./About/CountUp";
+import Achievements from "./About/Achievements";
 import Partners from "./About/Partners";
 import Team from "./About/Team";
 
@@ -35,7 +35,7 @@ export {
   FAQ,
   HeaderThree,
   Info,
-  CountUp,
+  Achievements,
   Partners,
   Team,
 };

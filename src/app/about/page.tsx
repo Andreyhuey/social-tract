@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  CountUp,
+  Achievements,
   Footer,
   HeaderThree,
   Info,
@@ -18,7 +18,7 @@ const page = () => {
       <HeaderThree />
       <Info />
       <Team />
-      <CountUp />
+      <Achievements />
       <Partners />
       <Newsletter />
       <Footer />
