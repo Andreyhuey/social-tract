@@ -1,5 +1,7 @@
+"use client";
+
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 
 // images for pcs and tabs
 import image1 from "../../assets/Rectangle-14.svg";
@@ -12,6 +14,11 @@ import image5 from "../../assets/Rectangle-10.svg";
 import image6 from "../../assets/Rectangle-11.svg";
 
 const HeaderThree = () => {
+  const [tabIndex, setTabIndex] = useState(1);
+  const nextTab = (index: number) => {
+    setTabIndex(index);
+  };
+
   return (
     <div className="container text-primary overflow-hidden md:py-16 py-8">
       <div className="md:py-4">
@@ -21,7 +28,41 @@ const HeaderThree = () => {
         </p>
       </div>
       {/*  */}
-      <div className="flex items-center justify-center text-center pt-16 pb-8">
+      <div className="border-b border-[#99999E] pt-20">
+        <div className="flex flex-row md:items-center md:justify-center items-start text-left justify-start font-semibold text-secondary w-full  capitalize  gap-10">
+          <a
+            href="#qualified-team"
+            className={`${
+              tabIndex === 1 && "border-b-2 text-primary  border-[#272D40]"
+            } p-8 pt-0`}
+            onClick={() => nextTab(1)}
+          >
+            {" "}
+            Qualified Team
+          </a>
+          <a
+            href="#qualified-team"
+            className={`${
+              tabIndex === 2 && "border-b-2 text-primary  border-[#272D40] "
+            } p-8 pt-0`}
+            onClick={() => nextTab(2)}
+          >
+            {" "}
+            Qualified Team
+          </a>
+          <a
+            href="#our-strategy"
+            className={`${
+              tabIndex === 3 && "border-b-2 text-primary  border-[#272D40]"
+            } p-8 pt-0`}
+            onClick={() => nextTab(3)}
+          >
+            {" "}
+            Our Strategy
+          </a>
+        </div>
+      </div>
+      <div className="flex flex-col items-center justify-center text-center pt-14 pb-8">
         <p className="md:max-w-[600px] text-center">
           As a leading college in Paris, we look to engage with our student
           beyond the conventional design and development school relationship,
@@ -29,7 +70,7 @@ const HeaderThree = () => {
         </p>
       </div>
       {/*  */}
-      <div className="flex flex-col lg:flex-row md:items-center lg:items-stretch py-8 gap-2">
+      <div className="flex flex-col lg:flex-row  lg:justify-center md:items-center lg:items-stretch py-8 gap-2">
         <Image src={image2} alt="image of 1" />
         <div className="flex flex-col gap-2 justify-between">
           <Image src={image3} alt="image of 2" className="" />
