@@ -29,7 +29,7 @@ const HeaderThree = () => {
         </p>
       </div>
       {/*  */}
-      <div className="flex flex-col md:flex-row py-8 gap-2">
+      <div className="flex flex-col lg:flex-row md:items-center lg:items-stretch py-8 gap-2">
         <Image src={image2} alt="image of 1" />
         <div className="flex flex-col gap-2 justify-between">
           <Image src={image3} alt="image of 2" className="" />
