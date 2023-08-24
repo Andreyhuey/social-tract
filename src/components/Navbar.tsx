@@ -5,6 +5,7 @@ import logo from "../assets/slack-1-logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 import { FiMenu } from "react-icons/fi";
+import { TfiClose } from "react-icons/tfi";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -46,34 +47,47 @@ const Navbar = () => {
         {/* for mobile devices */}
         <div className="flex items-center justify-between md:hidden py-4">
           <Link href="\" className="cursor-pointer">
-            <Image src={logo} alt="site logo" />
+            <Image src={logo} alt="site logo" className="h-[30px] w-[30px]" />
           </Link>
-          <FiMenu className="text-[24px] cursor-pointer" onClick={handleNav} />
+          {nav ? (
+            <TfiClose
+              className="text-[30px] cursor-pointer"
+              onClick={handleNav}
+            />
+          ) : (
+            <FiMenu
+              className="text-[30px] cursor-pointer"
+              onClick={handleNav}
+            />
+          )}
         </div>
-
-        {nav ? (
-          <div className="absolute h-screen w-full p-4 cursor-pointer bg-white">
-            <ul className="flex flex-col items-center justify-center gap-8">
-              <li className="cursor-pointer">
-                <Link href="why-slack">Why Slack?</Link>
-              </li>
-              <li className="cursor-pointer">
-                <Link href="pricing">Pricing</Link>
-              </li>
-              <li className="cursor-pointer">
-                <Link href="about">About</Link>
-              </li>
-              <li className="cursor-pointer">
-                <button>Sign in</button>
-              </li>
-              <li className="cursor-pointer">
-                <button className="border border-[#99999E] p-3">Sign up</button>
-              </li>
-            </ul>
-          </div>
-        ) : (
-          <></>
-        )}
+        <div className="w-full">
+          {nav ? (
+            <div className="absolute w-full p-4 cursor-pointer bg-white flex items-center justify-center">
+              <ul className="flex flex-col items-center justify-center gap-8">
+                <li className="cursor-pointer">
+                  <Link href="why-slack">Why Slack?</Link>
+                </li>
+                <li className="cursor-pointer">
+                  <Link href="pricing">Pricing</Link>
+                </li>
+                <li className="cursor-pointer">
+                  <Link href="about">About</Link>
+                </li>
+                <li className="cursor-pointer">
+                  <button>Sign in</button>
+                </li>
+                <li className="cursor-pointer">
+                  <button className="border border-[#99999E] p-3">
+                    Sign up
+                  </button>
+                </li>
+              </ul>
+            </div>
+          ) : (
+            <></>
+          )}
+        </div>
       </div>
     </div>
   );
