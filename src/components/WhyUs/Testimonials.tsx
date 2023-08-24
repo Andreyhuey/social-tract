@@ -27,7 +27,7 @@ const Testimonials = () => {
             <div key={index}>
               {currentSlide === index && (
                 <>
-                  <div className="flex flex-col md:flex-row items-center justify-between gap-4 w-full">
+                  <div className="flex flex-col lg:flex-row items-center justify-between gap-4 w-full">
                     <div className="text-black md:max-w-[500px]">
                       <p className="h2 ">{item?.name}</p>
                       <p className="text-primary">{item?.email}</p>

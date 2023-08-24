@@ -12,7 +12,7 @@ import {
 
 const FAQ = () => {
   return (
-    <div className="min-h-screen container pt-16 text-primary">
+    <div className="container pt-16 text-primary">
       <p className="h2 text-center">Frequently asked questions</p>
       <div className="w-full text-primary pt-10">
         <Accordion allowZeroExpanded={true} className="flex flex-col gap-4">

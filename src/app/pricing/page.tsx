@@ -11,7 +11,7 @@ const page = () => {
       <Navbar />
       <div className="md:pt-32 pt-20"></div>
       <>
-        <div className="container text-primary">
+        <div className="container text-primary md:py-16 py-8">
           <div>
             <p className="h1">Pricing</p>
             <p className="py-3">

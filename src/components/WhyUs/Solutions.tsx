@@ -63,19 +63,20 @@ const Solutions = () => {
       </div>
       {/*  */}
       <div className="container py-16">
-        <div className="flex items-center justify-between flex-col md:flex-row gap-4">
+        <div className="flex items-center justify-between flex-col lg:flex-row gap-4">
           <Image
             src={image7}
             alt="image of m"
-            className="order-2 md:order-1 md:flex hidden"
+            className="order-2 lg:order-1 md:flex hidden"
           />
 
+          {/* for mobile devices */}
           <Image
             src={mobile}
             alt="image of m"
             className="order-2 md:order-1 md:hidden"
           />
-          <div className="flex flex-col items-start justify-center gap-4 order-1 md:order-2 md:max-w-[450px]">
+          <div className="flex flex-col items-start justify-center gap-4 order-1 lg:order-2 md:max-w-[450px]">
             <p className="font-bold text-[30px]">Productivity for all</p>
             <p>
               Save time by streamlining daily tasks in Slack. Your entire team
@@ -91,7 +92,7 @@ const Solutions = () => {
       </div>
       {/*  */}
       <div className="container py-16">
-        <div className="flex items-center justify-between flex-col md:flex-row gap-4">
+        <div className="flex items-center justify-between flex-col lg:flex-row gap-4">
           <div className="flex flex-col items-start justify-center gap-4 md:max-w-[430px]">
             <p className="font-bold text-[29px]">Every type solutions</p>
             <p>
@@ -109,9 +110,9 @@ const Solutions = () => {
       </div>
       {/*  */}
       <div className="container pb-20 pt-28">
-        <div className="flex items-start justify-between flex-col md:flex-row gap-5">
-          <Image src={image9} alt="image of m" className="order-2 md:order-1" />
-          <div className="flex flex-col items-start justify-center gap-4 order-1 md:order-2 md:max-w-[450px]">
+        <div className="flex items-start justify-between flex-col md:items-center lg:items-center lg:flex-row gap-5">
+          <Image src={image9} alt="image of m" className="order-2 lg:order-1" />
+          <div className="flex flex-col items-start justify-center gap-4 order-1 lg:order-2 md:max-w-[450px]">
             <p className="font-bold text-[30px]">
               Explore the creative process.
             </p>
