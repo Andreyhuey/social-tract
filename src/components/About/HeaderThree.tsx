@@ -13,8 +13,8 @@ import image6 from "../../assets/Rectangle-11.svg";
 
 const HeaderThree = () => {
   return (
-    <div className="container text-primary overflow-hidden">
-      <div className="py-4">
+    <div className="container text-primary overflow-hidden md:py-16 py-8">
+      <div className="md:py-4">
         <p className="h1">About</p>
         <p className="py-3">
           unleashing our client’s potential by maximizing the innovation.

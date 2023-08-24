@@ -51,19 +51,19 @@ const Navbar = () => {
           </Link>
           {nav ? (
             <TfiClose
-              className="text-[30px] cursor-pointer"
+              className="text-[28px] cursor-pointer"
               onClick={handleNav}
             />
           ) : (
             <FiMenu
-              className="text-[30px] cursor-pointer"
+              className="text-[28px] cursor-pointer"
               onClick={handleNav}
             />
           )}
         </div>
-        <div className="w-full">
+        <div className="w-screen">
           {nav ? (
-            <div className="absolute w-full p-4 cursor-pointer bg-white flex items-center justify-center">
+            <div className="absolute w-screen h-screen px-4 py-24 cursor-pointer bg-white flex items-start justify-center">
               <ul className="flex flex-col items-center justify-center gap-8">
                 <li className="cursor-pointer">
                   <Link href="why-slack">Why Slack?</Link>
