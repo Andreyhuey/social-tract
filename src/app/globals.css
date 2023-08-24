@@ -46,9 +46,15 @@ body {
   .h2 {
     @apply font-bold text-[30px] md:text-[36px];
   }
+
   .h3 {
     @apply font-bold  text-[26px]  md:text-[32px];
   }
+
+  .h4 {
+    @apply font-semibold md:text-[28px] text-[24px];
+  }
+
   .h5 {
     @apply font-semibold md:text-[22px] text-[20px];
   }
