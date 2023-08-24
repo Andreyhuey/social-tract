@@ -7,7 +7,7 @@ import image7 from "../../assets/Image7.svg";
 import image8 from "../../assets/Image8.svg";
 import image9 from "../../assets/Image9.svg";
 import vector1 from "../../assets/Vector-1.svg";
-import vector2 from "../../assets/Vector-2.svg";
+import vector2 from "../../assets/vector-2.svg";
 import { BsArrowRight } from "react-icons/bs";
 import mobile from "../../assets/Imageformobile.svg";
 
