@@ -19,9 +19,9 @@ const Partners = () => {
         </div>
         <div className="py-8">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-5">
-            <div className="flex flex-col lg:flex-row gap-3 items-center w-full">
+            <div className="flex flex-col md:flex-row gap-3 items-center w-full">
               <Image src={img} alt="Daniel James Stripe" className="w-full" />
-              <div className="flex flex-col lg:items-start items-center">
+              <div className="flex flex-col md:items-start items-center">
                 <p className="h5 pb-5">Daniel James, Stripe</p>
                 <p>
                   By enrolling in the Four Bear Program, UM guarantees you will
@@ -30,9 +30,9 @@ const Partners = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col lg:flex-row gap-3 items-center w-full">
+            <div className="flex flex-col md:flex-row gap-3 items-center w-full">
               <Image src={img2} alt="Daniel James Stripe" className="w-full" />
-              <div className="flex flex-col lg:items-start items-center">
+              <div className="flex flex-col md:items-start items-center">
                 <p className="h5 pb-5 text-start">Shane Dore, PayPal</p>
                 <p>
                   By enrolling in the Four Bear Program, UM guarantees you will
@@ -47,8 +47,8 @@ const Partners = () => {
           </p>
         </div>
       </div>
-      {/* for phones */}
-      <div className="pt-16 grid grid-cols-3 lg:hidden items-center gap-10 justify-between">
+      {/* for phones and tablets*/}
+      <div className="pt-16 grid grid-cols-3 lg:hidden items-center gap-10 justify-center">
         <Image src={image9} alt="image of 9" />
         <Image src={image4} alt="image of 4" />
         <Image src={image5} alt="image of 5" />
