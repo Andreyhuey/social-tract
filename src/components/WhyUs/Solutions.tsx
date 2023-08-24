@@ -13,9 +13,9 @@ import mobile from "../../assets/Imageformobile.svg";
 
 const Solutions = () => {
   return (
-    <div className="text-[#272D40] ">
+    <div className="text-primary ">
       <div className="bg-[#F5F4F5] md:py-16 py-8">
-        <div className="container text-[#272D40]">
+        <div className="container text-primary">
           <div className="text-center pt-16">
             <p className=" md:text-[40px] text-[30px] font-bold">
               Digital Solutions
@@ -28,7 +28,7 @@ const Solutions = () => {
           <div className="py-16 flex flex-col md:flex-row items-center justify-between gap-10">
             <div className="flex flex-col gap-4 justify-start items-start">
               <Image src={image3} alt="icon" className="h-[68px] w-[60px]" />
-              <p className="text-[#272D40] text-[22px] font-semibold">
+              <p className="text-primary text-[22px] font-semibold">
                 Unified and secure
               </p>
               <p>
@@ -39,7 +39,7 @@ const Solutions = () => {
             {/*  */}
             <div className="flex flex-col gap-4 justify-start items-start">
               <Image src={image2} alt="icon" />
-              <p className="text-[#272D40] text-[22px] font-semibold">
+              <p className="text-primary text-[22px] font-semibold">
                 No additional costs
               </p>
               <p>
@@ -50,7 +50,7 @@ const Solutions = () => {
             {/*  */}
             <div className="flex flex-col gap-4 justify-start items-start">
               <Image src={image1} alt="icon" />
-              <p className="text-[#272D40] text-[22px] font-semibold">
+              <p className="text-primary text-[22px] font-semibold">
                 Works on the move
               </p>
               <p>

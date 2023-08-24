@@ -30,7 +30,7 @@ const Testimonials = () => {
                   <div className="flex flex-col md:flex-row items-center justify-between gap-4 w-full">
                     <div className="text-black md:max-w-[500px]">
                       <p className="h2 ">{item?.name}</p>
-                      <p className="text-[#272D40]">{item?.email}</p>
+                      <p className="text-primary">{item?.email}</p>
                       <p className="pt-6">{item?.quote}</p>
 
                       <div className="flex flex-col md:flex-row items-center justify-center gap-3 md:justify-between pt-7">

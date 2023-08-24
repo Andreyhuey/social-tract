@@ -31,10 +31,25 @@ body {
     @apply px-4 md:px-8 lg:px-20;
   }
 
+  .text-primary {
+    @apply text-[#272D40];
+  }
+
+  .text-secondary {
+    @apply text-[#99999E];
+  }
+
+  .h1 {
+    @apply font-bold text-[34px] md:text-[40px];
+  }
+
   .h2 {
     @apply font-bold text-[30px] md:text-[36px];
   }
   .h3 {
-    @apply font-bold md:text-[32px];
+    @apply font-bold  text-[26px]  md:text-[32px];
+  }
+  .h5 {
+    @apply font-semibold md:text-[22px] text-[20px];
   }
 }

@@ -6,14 +6,14 @@ const Services = () => {
   return (
     <div className="pb-">
       <div className="container md:py-12 py-8">
-        <p className="text-[#272D40] text-center">
+        <p className="text-primary text-center">
           Mobile, desktop, all you need
         </p>
         <div className="flex flex-col items-center justify-center text-center gap-4">
-          <p className="text-[#272D40] font-bold md:text-[45px] text-[35px] md:max-w-[600px] text-center">
+          <p className="text-primary font-bold md:text-[45px] text-[35px] md:max-w-[600px] text-center">
             Global Services
           </p>
-          <p className="text-[#272D40] md:max-w-[550px]">
+          <p className="text-primary md:max-w-[550px]">
             We provide digital experience services to startups and small
             businesses. We help our clients succeed by creating brand
             identities, digital experiences, and print materials.
@@ -28,10 +28,10 @@ const Services = () => {
       <div className="bg-[#F9F9F9]">
         <div className="container md:py-16 py-8  ">
           <div className="flex flex-col items-center justify-center text-center gap-4">
-            <p className="text-[#272D40] font-bold md:text-[45px] text-[35px] md:max-w-[600px] text-center">
+            <p className="text-primary font-bold md:text-[45px] text-[35px] md:max-w-[600px] text-center">
               leading the best marketing team.
             </p>
-            <p className="text-[#272D40] md:max-w-[550px]">
+            <p className="text-primary md:max-w-[550px]">
               We help our clients succeed by creating brand identities, digital
               experiences, and print materials that communicate clearly, achieve
               marketing.

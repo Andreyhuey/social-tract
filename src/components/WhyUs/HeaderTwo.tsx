@@ -4,7 +4,7 @@ import Header from "../../assets/Group-13100.svg";
 
 const HeaderTwo = () => {
   return (
-    <div className="container text-[#272D40] md:py-16 py-8">
+    <div className="container text-primary md:py-16 py-8">
       <div className="flex items-start justify-between flex-col md:flex-row gap-4">
         <div>
           <div className="flex flex-col gap-4 justify-start items-center md:max-w-[500px]">

@@ -21,10 +21,10 @@ const Navbar = () => {
               <Link href="why-slack">Why Slack?</Link>
             </li>
             <li className="cursor-pointer">
-              <Link href="why-slack">Pricing</Link>
+              <Link href="pricing">Pricing</Link>
             </li>
             <li className="cursor-pointer">
-              <Link href="why-slack">About</Link>
+              <Link href="about">About</Link>
             </li>
           </ul>
 

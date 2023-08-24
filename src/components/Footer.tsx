@@ -24,7 +24,7 @@ const Footer = () => {
             <Link className="cursor-pointer" href="/">
               <Image src={logo} alt="site logo" className="flex-1 h-10 w-10" />
             </Link>
-            <div className="md:grid md:grid-cols-2 flex-1 lg:grid-cols-4 text-[#272D40] flex items-start justify-end gap-x-32 gap-y-8">
+            <div className="md:grid md:grid-cols-2 flex-1 lg:grid-cols-4 text-primary flex items-start justify-end gap-x-32 gap-y-8">
               <div>
                 <p className="font-bold">Company</p>
                 <div className="flex flex-col gap-3 pt-4">
@@ -71,11 +71,11 @@ const Footer = () => {
         </div>
         <div className="border border-t-[#99999E] border-r-0 border-b-0 border-l-0 py-6">
           <div className="flex items-center justify-between container">
-            <div className="flex items-start justify-center gap-5 text-[#272D40] font-semibold">
+            <div className="flex items-start justify-center gap-5 text-primary font-semibold">
               <p>Status</p>
               <p>Privacy & Terms</p>
             </div>
-            <div className="flex items-center justify-between gap-7 text-[#272D40] text-[24px]">
+            <div className="flex items-center justify-between gap-7 text-primary text-[24px]">
               <BiLogoFacebook />
               <BiLogoTwitter />
               <BiLogoYoutube />
@@ -85,7 +85,7 @@ const Footer = () => {
       </div>
       {/* for mobile devices */}
       <div className="md:hidden container">
-        <div className="w-full text-[#272D40] pb-10">
+        <div className="w-full text-primary pb-10">
           <Accordion allowZeroExpanded={true} className="flex flex-col gap-2">
             <AccordionItem className="border-b-[1px] border-[#99999E]">
               <AccordionItemHeading>
@@ -180,10 +180,10 @@ const Footer = () => {
           </Accordion>
         </div>
         <div className="flex items-center justify-between">
-          <Link href="/" className="cursor-pointer">
+          <Link href="/" className="cursor-pointer text-[28px]">
             <Image src={logo} alt="site logo" />
           </Link>
-          <div className="flex items-center justify-between gap-7 text-[#272D40]">
+          <div className="flex items-center justify-between gap-7 text-primary text-[28px]">
             <BiLogoFacebook />
             <BiLogoTwitter />
             <BiLogoYoutube />

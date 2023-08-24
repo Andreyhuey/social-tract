@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className="bg-white w-full">
       <Navbar />
-      <div className="md:pt-16 pt-10 "></div>
+      <div className="md:pt-32 pt-20"></div>
       <Header />
       <Desc />
       <Services />

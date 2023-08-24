@@ -6,10 +6,10 @@ const Header = () => {
   return (
     <div className="container md:pt-12 pt-8 w-full">
       <div className="flex flex-col items-center justify-center text-center gap-4">
-        <p className="text-[#272D40] font-bold md:text-[45px] text-[30px] md:max-w-[600px] text-center">
+        <p className="text-primary font-bold md:text-[45px] text-[30px] md:max-w-[600px] text-center">
           Connecting people around the world.
         </p>
-        <p className="text-[#272D40] md:max-w-[500px]">
+        <p className="text-primary md:max-w-[500px]">
           Tailored to the way you work, customized to the tools of your team’s
           trade; Slack brings into one place all the people and pieces you need
           to get your job done.
