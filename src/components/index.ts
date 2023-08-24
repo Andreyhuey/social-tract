@@ -14,6 +14,13 @@ import TestimonialCarousel from "./WhyUs/TestimonialCarousel";
 import Testimonials from "./WhyUs/Testimonials";
 import FAQ from "./WhyUs/FAQ";
 
+// About
+import HeaderThree from "./About/HeaderThree";
+import Info from "./About/Info";
+import CountUp from "./About/CountUp";
+import Partners from "./About/Partners";
+import Team from "./About/Team";
+
 export {
   Navbar,
   Header,
@@ -26,4 +33,9 @@ export {
   TestimonialCarousel,
   Testimonials,
   FAQ,
+  HeaderThree,
+  Info,
+  CountUp,
+  Partners,
+  Team,
 };
