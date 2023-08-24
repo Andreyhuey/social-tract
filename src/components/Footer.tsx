@@ -89,7 +89,9 @@ const Footer = () => {
           <Accordion allowZeroExpanded={true} className="flex flex-col gap-2">
             <AccordionItem className="border-b-[1px] border-[#99999E]">
               <AccordionItemHeading>
-                <AccordionItemButton className="flex items-center justify-between gap-1 w-full bg-[#fff] py-4 px-2 font-bold">
+                <AccordionItemButton
+                  className={` flex items-center justify-between gap-1 w-full foc  py-4 px-2 font-bold focus:bg-[#3D42B0] focus:text-white rounded  `}
+                >
                   Company
                   <AiOutlineDown />
                 </AccordionItemButton>
@@ -104,7 +106,7 @@ const Footer = () => {
             {/*  */}
             <AccordionItem className="border-b-[1px] border-[#99999E]">
               <AccordionItemHeading>
-                <AccordionItemButton className="flex items-center justify-between gap-1 w-full bg-[#fff] py-4 px-2 font-bold">
+                <AccordionItemButton className="flex items-center justify-between gap-1 w-full bg-[#fff] py-4 px-2 font-bold focus:bg-[#3D42B0] focus:text-white rounded">
                   Slack
                   <AiOutlineDown />
                 </AccordionItemButton>
@@ -121,7 +123,7 @@ const Footer = () => {
             {/*  */}
             <AccordionItem className="border-b-[1px] border-[#99999E]">
               <AccordionItemHeading>
-                <AccordionItemButton className="flex items-center justify-between gap-1 w-full bg-[#fff] py-4 px-2 font-bold">
+                <AccordionItemButton className="flex items-center justify-between gap-1 w-full bg-[#fff] py-4 px-2 font-bold focus:bg-[#3D42B0] focus:text-white rounded">
                   Resources
                   <AiOutlineDown />
                 </AccordionItemButton>
@@ -139,7 +141,7 @@ const Footer = () => {
             {/*  */}
             <AccordionItem className="border-b-[1px] border-[#99999E]">
               <AccordionItemHeading>
-                <AccordionItemButton className="flex items-center justify-between gap-1 w-full bg-[#fff] py-4 px-2 font-bold">
+                <AccordionItemButton className="flex items-center justify-between gap-1 w-full bg-[#fff] py-4 px-2 font-bold focus:bg-[#3D42B0] focus:text-white rounded">
                   Extras
                   <AiOutlineDown />
                 </AccordionItemButton>
@@ -154,7 +156,7 @@ const Footer = () => {
             {/*  */}
             <AccordionItem className="border-b-[1px] border-[#99999E]">
               <AccordionItemHeading>
-                <AccordionItemButton className="flex items-center justify-between gap-1 w-full bg-[#fff] py-4 px-2 font-bold">
+                <AccordionItemButton className="flex items-center justify-between gap-1 w-full bg-[#fff] py-4 px-2 font-bold focus:bg-[#3D42B0] focus:text-white rounded">
                   Status
                   <AiOutlineDown />
                 </AccordionItemButton>
@@ -166,7 +168,7 @@ const Footer = () => {
             {/*  */}
             <AccordionItem className="border-b-[1px] border-[#99999E]">
               <AccordionItemHeading>
-                <AccordionItemButton className="flex items-center justify-between gap-1 w-full bg-[#fff] py-4 px-2 font-bold">
+                <AccordionItemButton className="flex items-center justify-between gap-1 w-full bg-[#fff] py-4 px-2 font-bold focus:bg-[#3D42B0] focus:text-white rounded">
                   Privacy & Terms
                   <AiOutlineDown />
                 </AccordionItemButton>
