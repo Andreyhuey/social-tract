@@ -74,22 +74,22 @@ const Info = () => {
       </div>
       <div className="py-14">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex flex-col items-center justify-center gap-3 text-center shadow-xl px-4 py-14">
+          <div className="flex flex-col items-center justify-center gap-3 text-center shadow-xl px-4 py-14 w-full">
             <Image src={frame} alt="frame" />
             <p className="h5">Diversity and Inclusion</p>
             <p>International Partners</p>
           </div>
-          <div className="flex flex-col items-center justify-center gap-3 text-center shadow-xl px-4 py-14">
+          <div className="flex flex-col items-center justify-center gap-3 text-center shadow-xl px-4 py-14 w-full">
             <Image src={frame} alt="frame" />
             <p className="h5">Diversity and Inclusion</p>
             <p>International Partners</p>
           </div>
-          <div className="flex flex-col items-center justify-center gap-3 text-center shadow-xl px-4 py-14">
+          <div className="flex flex-col items-center justify-center gap-3 text-center shadow-xl px-4 py-14 w-full">
             <Image src={frame} alt="frame" />
             <p className="h5">Diversity and Inclusion</p>
             <p>International Partners</p>
           </div>
-          <div className="flex flex-col items-center justify-center gap-3 text-center shadow-xl px-4 py-14">
+          <div className="flex flex-col items-center justify-center gap-3 text-center shadow-xl px-4 py-14 w-full">
             <Image src={frame} alt="frame" />
             <p className="h5">Diversity and Inclusion</p>
             <p>International Partners</p>

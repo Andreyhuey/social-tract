@@ -33,20 +33,12 @@ const HeaderThree = () => {
         <Image src={image2} alt="image of 1" />
         <div className="flex flex-col gap-2 justify-between">
           <Image src={image3} alt="image of 2" className="" />
-          <div className="flex flex-row justify-center md:gap-2 gap-1 md:px-0 px-2">
+          <div className="flex flex-row justify-center md:gap-2 gap-1 md:px-0 px-2 w-full">
             <Image src={image1} alt="image of 3" className="hidden md:flex" />
             <Image src={image4} alt="image of 4" className="hidden md:flex" />
             {/*  */}
-            <Image
-              src={image5}
-              alt="image of 3"
-              className="md:hidden w-[140px]"
-            />
-            <Image
-              src={image6}
-              alt="image of 4"
-              className="md:hidden w-[140px]"
-            />
+            <Image src={image5} alt="image of 3" className="md:hidden w-full" />
+            <Image src={image6} alt="image of 4" className="md:hidden w-full" />
           </div>
         </div>
       </div>
