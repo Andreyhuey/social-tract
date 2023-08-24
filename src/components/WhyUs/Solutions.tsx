@@ -9,6 +9,7 @@ import image9 from "../../assets/Image9.svg";
 import vector1 from "../../assets/Vector-1.svg";
 import vector2 from "../../assets/Vector-2.svg";
 import { BsArrowRight } from "react-icons/bs";
+import mobile from "../../assets/Imageformobile.svg";
 
 const Solutions = () => {
   return (
@@ -63,7 +64,17 @@ const Solutions = () => {
       {/*  */}
       <div className="container py-16">
         <div className="flex items-center justify-between flex-col md:flex-row gap-4">
-          <Image src={image7} alt="image of m" className="order-2 md:order-1" />
+          <Image
+            src={image7}
+            alt="image of m"
+            className="order-2 md:order-1 md:flex hidden"
+          />
+
+          <Image
+            src={mobile}
+            alt="image of m"
+            className="order-2 md:order-1 md:hidden"
+          />
           <div className="flex flex-col items-start justify-center gap-4 order-1 md:order-2 md:max-w-[450px]">
             <p className="font-bold text-[30px]">Productivity for all</p>
             <p>
@@ -124,8 +135,8 @@ const Solutions = () => {
               {/* <p>Browse productivity apps</p>
                */}
               <div className="flex flex-col shadow-lg p-3 gap-2">
-                <Image src={vector1} alt="Vector 1" />
-                <p className="font-semibold">Workflow Builder</p>
+                <Image src={vector2} alt="Vector 1" />
+                <p className="font-semibold">Slack APIs</p>
                 <p>
                   Turn routine processes into automated workflows that keep work
                   moving forward.
