@@ -6,6 +6,9 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --max-width: 1200px;
+  --extra-width: calc(100% - var(--max-width));
+  --full-bleed: calc(var(--extra-width) / 2);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,7 +31,10 @@ body {
 
 @layer base {
   .container {
-    @apply px-4 md:px-8 lg:px-20;
+    @apply px-4 md:px-8 lg:px-20 xl:full-bleed mx-auto;
+  }
+  .full-bleed {
+    @apply px-[--full-bleed];
   }
 
   .text-primary {
