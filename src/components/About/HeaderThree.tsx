@@ -20,8 +20,8 @@ const HeaderThree = () => {
   };
 
   return (
-    <div className="container text-primary overflow-hidden md:py-16 py-8">
-      <div className="md:py-4">
+    <div className="text-primary overflow-hidden md:py-16 py-8">
+      <div className="md:py-4 container ">
         <p className="h1">About</p>
         <p className="py-3">
           unleashing our client’s potential by maximizing the innovation.
@@ -29,12 +29,12 @@ const HeaderThree = () => {
       </div>
       {/*  */}
       <div className="border-b border-[#99999E] pt-20">
-        <div className="flex flex-row md:items-center md:justify-center items-start text-left justify-start font-semibold text-secondary w-full  capitalize  gap-10">
+        <div className="flex flex-row items-center justify-between font-semibold text-secondary container capitalize text-center">
           <a
             href="#qualified-team"
             className={`${
               tabIndex === 1 && "border-b-2 text-primary  border-[#272D40]"
-            } p-8 pt-0`}
+            } p-4 pt-0`}
             onClick={() => nextTab(1)}
           >
             {" "}
@@ -44,7 +44,7 @@ const HeaderThree = () => {
             href="#qualified-team"
             className={`${
               tabIndex === 2 && "border-b-2 text-primary  border-[#272D40] "
-            } p-8 pt-0`}
+            } p-4 pt-0`}
             onClick={() => nextTab(2)}
           >
             {" "}
@@ -54,7 +54,7 @@ const HeaderThree = () => {
             href="#our-strategy"
             className={`${
               tabIndex === 3 && "border-b-2 text-primary  border-[#272D40]"
-            } p-8 pt-0`}
+            } p-4 pt-0`}
             onClick={() => nextTab(3)}
           >
             {" "}
@@ -62,7 +62,7 @@ const HeaderThree = () => {
           </a>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center text-center pt-14 pb-8">
+      <div className="flex flex-col items-center justify-center text-center pt-14 pb-8 container ">
         <p className="md:max-w-[600px] text-center">
           As a leading college in Paris, we look to engage with our student
           beyond the conventional design and development school relationship,
@@ -70,7 +70,7 @@ const HeaderThree = () => {
         </p>
       </div>
       {/*  */}
-      <div className="flex flex-col lg:flex-row  lg:justify-center md:items-center lg:items-stretch py-8 gap-2">
+      <div className="flex flex-col lg:flex-row  lg:justify-center md:items-center lg:items-stretch py-8 gap-2 container ">
         <Image src={image2} alt="image of 1" />
         <div className="flex flex-col gap-2 justify-between">
           <Image src={image3} alt="image of 2" className="" />
