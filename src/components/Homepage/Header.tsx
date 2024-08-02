@@ -11,9 +11,9 @@ const Header = () => {
   };
 
   return (
-    <div>
+    <>
       <div className="lg:flex hidden border-b border-[#99999E]">
-        <div className="flex flex-row items-center justify-center font-[480] text-secondary  uppercase w-full gap-36">
+        <div className="flex flex-row items-center justify-between font-[480] text-secondary  uppercase w-full container">
           <a
             href="#overview"
             className={`${
@@ -56,7 +56,6 @@ const Header = () => {
         </div>
       </div>
 
-      <div></div>
       <div className="container w-full md:pt-12 pt-8">
         <div className="flex flex-col items-center justify-center text-center gap-4">
           <p className="text-primary font-bold md:text-[45px] text-[30px] md:max-w-[600px] text-center">
@@ -73,7 +72,7 @@ const Header = () => {
           <Image src={Hero} alt="Hero image" className="pt-3" />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
