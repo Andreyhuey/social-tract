@@ -19,8 +19,8 @@ const Footer = () => {
     <div className="pt-5 pb-10 md:pt-14 md:pb-5">
       {/* for tabs and pcs */}
       <div className="hidden md:flex flex-col">
-        <div>
-          <div className="flex md:flex-col lg:flex-row  md:items-center lg:items-start md:justify-between gap-24 container pb-20">
+        <div className="w-full">
+          <div className="flex md:flex-col lg:flex-row  md:items-center lg:items-start md:justify-between md:gap-x-32 container pb-20">
             <Link className="cursor-pointer" href="/">
               <Image src={logo} alt="site logo" className="flex-1 h-10 w-10" />
             </Link>
