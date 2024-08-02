@@ -14,7 +14,7 @@ const page = () => {
   return (
     <main className="bg-white w-full">
       <Navbar />
-      <div className="md:pt-32 pt-20"></div>
+      <div className="lg:pt-32 pt-20"></div>
       <HeaderThree />
       <Info />
       <Team />
