@@ -30,13 +30,12 @@ body {
 }
 
 @layer base {
-  .container {
-    @apply px-4 md:px-8 lg:px-20 xl:full-bleed mx-auto;
-  }
   .full-bleed {
     @apply px-[--full-bleed];
   }
-
+  .container {
+    @apply px-4 md:px-8 lg:px-20 xl:full-bleed mx-auto;
+  }
   .text-primary {
     @apply text-[#272D40];
   }
